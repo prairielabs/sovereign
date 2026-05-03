@@ -1,0 +1,20 @@
+# Loop artifacts — session-specific, not for repo
+loop/tasks/
+loop/reports/
+loop/results/
+loop/questions/
+loop/answers/
+loop/problems/
+loop/solutions/
+
+# Keep loop directory structure
+!loop/.gitkeep
+
+# Memory — instance-specific
+memory/
+
+# Keep memory directory structure
+!memory/.gitkeep
+
+# Scratch scripts
+tmp/
